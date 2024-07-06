@@ -1,0 +1,306 @@
+		@font-face{
+			font-family: juli;
+			src: url("../fonts/JuliusSansOne-Regular.ttf");
+		}
+		@font-face{
+			font-family: Jose;
+			src: url("../fonts/JosefinSans-VariableFont_wght.ttf");
+		}		
+		@font-face{
+			font-family: Rub;
+			src: url("../fonts/RubikMonoOne-Regular.ttf");
+		}
+
+
+
+
+
+		body{
+			margin: 0px;
+		}
+		#wrap{
+			border : solid 1px black;
+			-webkit-box-shadow: -5px 6px 19px -3px rgba(0,56,66,1);
+			-moz-box-shadow: -5px 6px 19px -3px rgba(0,56,66,1);
+			box-shadow: -5px 6px 19px -3px rgba(0,56,66,1);
+		}
+
+		#products{
+			font-family: juli;
+			background-color: #FFFEEC;
+			border : solid 1px red;
+			padding : 100px;
+		}
+			#testimonials{
+				font-weight: 0;
+				font-family: Jose;
+			background-color: #A1CDB7;
+			border : solid 1px red;
+			padding : 100px;
+		}
+
+		.heading{
+			font-size: 20pt;
+			font-family: Rub;
+			border : solid 1px green;
+			text-align : center;
+			margin-bottom : 50px;
+		}
+
+		.productRow{
+	      margin: 70px;
+			border: solid 1px black;
+			display : flex;
+			flex-direction : row;
+			 justify-content: center;
+		}
+
+
+		.testimonialRow{
+
+
+			justify-content: space-evenly;
+			margin-bottom : 100px;
+		}
+
+		.productRowReverse{
+			flex-direction : row-reverse;
+		}
+
+		.productImage{
+
+			padding: 30px;
+
+			
+
+		}
+
+		.inline-border{ 
+			border: 1px solid green;
+			  margin: 10px auto; 
+			  font-size: 20pt;
+		
+		}		
+
+		
+
+
+		.productImage img{
+
+			hieght:800px;
+			width:800px;
+		}
+		.productRDescription h2{
+			color: pink;
+		font-family: Rub;
+		}
+		.productDescription h2{
+		font-family: Rub;
+		color:green;
+		}
+
+		.productRDescription{
+			flex-grow: 20;
+			position:relative; left:100px;top:100px;
+					padding: 30px;
+		}
+
+		.productDescription{
+				position:relative; right: 100px;top:100px;
+					padding: 30px;
+		}
+
+
+
+		.testimonial{
+	
+			display : flex;
+			gap: 50px 100px;
+
+		}
+
+		.testimonialImage{
+			-webkit-box-shadow: -5px 6px 19px -3px rgba(0,56,66,1);
+			-moz-box-shadow: -5px 6px 19px -3px rgba(0,56,66,1);
+			box-shadow: -5px 6px 19px -3px rgba(0,56,66,1);
+			background-color: #FFFEEC;
+			border: solid 1px;
+			text-align : center;
+		}
+
+		.testimonialImage img{
+			position: relative; top: 20px;
+			border-radius : 50%;
+		}
+
+		.testimonialText{
+			background-color: #FFFEEC;
+			display : flex;
+			align-items : center;
+		}
+		#hero{
+			position : relative;
+			background-repeat:no-repeat;
+			background-image: url("../images/1.png");
+			background-size: cover;
+			min-height: 40vh;
+			height:1200px;
+		}
+
+		#hero img{
+			width : 100%;
+			height:100%;
+		}
+
+		#sale{
+			width : 100%;
+			height : 300px;
+			background : rgba(255,0,0,0);
+
+			position : absolute;
+			bottom : 900px;
+			right : 0px;
+		}
+
+		#saleWrap {
+    font-family: juli;
+    font-size: 50pt;
+    text-align: center;
+    position: relative; 
+}
+
+		#saleWrap h1{
+			color: white;
+			font-family: juli;
+
+		 text-shadow: 2px 4px 4px rgba(46,0,0,0.6);
+		font-weight: normal;
+	
+		}
+
+		
+#saleBtn {
+    background-color: #BDA65B;
+    width: 200px;
+    height: 100px;
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    border-radius: 20px;
+    font-size: 20pt;
+   display: flex;          
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+		#lightbox{
+			width : 100vw;
+			height : 100vh;
+			background: rgba(255,255,255,.8);
+
+			position : fixed;
+			z-index : 100;
+			top : 0px;
+			left : 0px;
+
+			display : none;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#lb_content{
+			border : solid 1px black;
+			border-radius : 25px;
+
+			width : 600px;
+			height : 400px;
+
+			background : white;
+		}
+		#LOGO{
+
+		}
+		#LOGO h1{
+		color: #FFFEEC;
+			font-family: Rub;
+
+
+		}
+		#intro{
+
+			position: relative;
+			top:650px;
+		}
+		#intro h1{
+			color:#FFFEEC;
+			font-family: juli;
+			font-size: 32pt;
+			text-align: center;
+
+
+		}
+		#intro p{
+			display: flex;
+			color:#FFFEEC;
+			font-family: juli;
+			text-align: center;
+
+
+		}
+#nav {
+	font-family: juli;
+
+    text-align: right;
+}
+.mainNav ul {
+	display: flex;
+	 list-style: none; 
+    list-style-type: none; 
+    padding: 0;
+    margin: 30px; 
+
+}
+.mainNav a {
+    text-decoration: none; 
+}
+.mainNav li {
+    display: inline; 
+    margin-right: 40px;
+    padding: 100px;
+}
+.topnav{
+	display: inline;
+	padding: 20px;
+	margin-left: 20px;
+	top: 1px;
+}
+
+.CO{
+	color:#FF9385;
+	font-family: Rub;
+text-align: left;
+border: solid 1px;
+}
+
+#contact{
+	border: none;
+	background-color: #1F4739;
+}
+#contact h4 {
+		font-family: juli;
+	color: whitesmoke;
+
+}
+#contact p {
+		font-family: juli;
+	color: whitesmoke;
+}
+#socialmedia{
+	border: none;
+		background-color: #1F4739;
+}
+
+#hea {
+  display: flex;
+}
+
